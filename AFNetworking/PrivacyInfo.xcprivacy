@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
-	<dict>
-		<key>NSPrivacyAccessedAPIType</key>
-		<string>NSPrivacyAccessedAPICategoryDiskSpace</string>
-		<key>NSPrivacyAccessedAPITypeReasons</key>
-		<array>
-			<string>85F4.1</string>
-		</array>
-	</dict>
-	<dict>
-		<key>NSPrivacyAccessedAPIType</key>
-		<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
-		<key>NSPrivacyAccessedAPITypeReasons</key>
-		<array>
-			<string>CA92.1</string>
-		</array>
-	</dict>
-	<dict>
-		<key>NSPrivacyAccessedAPIType</key>
-		<string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
-		<key>NSPrivacyAccessedAPITypeReasons</key>
-		<array>
-			<string>C617.1</string>
-			<string>DDA9.1</string>
-		</array>
-	</dict>
-	<dict>
-		<key>NSPrivacyAccessedAPIType</key>
-		<string>NSPrivacyAccessedAPICategorySystemBootTime</string>
-		<key>NSPrivacyAccessedAPITypeReasons</key>
-		<array>
-			<string>35F9.1</string>
-		</array>
-	</dict>
-</array>
+<dict>
+ <key>NSPrivacyCollectedDataTypes</key>
+ <array/>
+ <key>NSPrivacyAccessedAPITypes</key>
+ <array>
+  <dict>
+   <key>NSPrivacyAccessedAPITypeReasons</key>
+   <array>
+    <string>File Timestamp - 0A2A.1: 3rd-party SDK wrapper on-device, per documentation</string>
+   </array>
+   <key>NSPrivacyAccessedAPIType</key>
+   <string>File Timestamp - 0A2A.1</string>
+  </dict>
+ </array>
+ <key>NSPrivacyTracking</key>
+ <false/>
+ <key>NSPrivacyTrackingDomains</key>
+ <array/>
+</dict>
 </plist>
