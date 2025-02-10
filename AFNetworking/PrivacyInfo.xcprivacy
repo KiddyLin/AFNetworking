@@ -2,22 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
- <key>NSPrivacyCollectedDataTypes</key>
- <array/>
- <key>NSPrivacyAccessedAPITypes</key>
- <array>
-     <dict>
-         <key>NSPrivacyAccessedAPIType</key>
-         <string>File Timestamp - 0A2A.1</string>
-         <key>NSPrivacyAccessedAPITypeReasons</key>
-         <array>
-             <string>File Timestamp - 0A2A.1: 3rd-party SDK wrapper on-device, per documentation</string>
-         </array>
-     </dict>
- </array>
- <key>NSPrivacyTracking</key>
- <false/>
- <key>NSPrivacyTrackingDomains</key>
- <array/>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array/>
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
+    <key>NSPrivacyCollectedDataTypes</key>
+    <array/>
+    <key>NSPrivacyTracking</key>
+    <false/>
 </dict>
 </plist>
